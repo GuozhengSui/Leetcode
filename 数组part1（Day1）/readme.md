@@ -14,3 +14,4 @@ class Solution:
                 return mid
         return -1
 ```
+使用双指针进行二分查找，问题的关键在于边界条件。
