@@ -17,7 +17,7 @@ class Solution:
         return li
 ```
 ## 209. 长度最小的子数组
-···python
+```python
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         slow = 0
@@ -31,4 +31,4 @@ class Solution:
                 result = min(result, i - slow + 1)
                 slow += 1
         return result if result != float('inf') else 0
-···
+```
