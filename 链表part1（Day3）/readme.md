@@ -70,7 +70,8 @@ class MyLinkedList:
 ```
 ## 206. 反转链表
 依然类似于虚拟头节点，双指针
-![image](https://github.com/GuozhengSui/Leetcode/assets/86645048/876e7515-af0e-4b07-ac7c-5017c531ea0f)
+![image](https://github.com/GuozhengSui/Leetcode/assets/86645048/0430f793-a11f-4cf6-9296-b75e665682d0)
+
 
 ```python
 class Solution:
