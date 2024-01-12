@@ -68,4 +68,20 @@ class MyLinkedList:
         cur.next = cur.next.next
         self.size -= 1
 ```
+## 206. 反转链表
+依然类似于虚拟头节点，双指针
+![image](https://github.com/GuozhengSui/Leetcode/assets/86645048/876e7515-af0e-4b07-ac7c-5017c531ea0f)
 
+```python
+class Solution:
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        cur  = head
+        pre  =None
+        while cur != None:
+            temp = cur.next
+            cur.next = pre
+            pre = cur
+            cur = temp
+            
+        return pre
+```
