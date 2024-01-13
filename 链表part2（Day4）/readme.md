@@ -1,4 +1,6 @@
+虚拟头节点和双指针，快慢指针是链表问题的主要解决方法。
 ## 24. 两两交换链表中的节点
+虚拟头节点
 ```python
 class Solution:
     def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
@@ -17,6 +19,7 @@ class Solution:
         return dummy_head.next
 ```
 ## 19. 删除链表的倒数第 N 个结点
+快慢指针
 ```python
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
@@ -60,6 +63,7 @@ class Solution:
         return None
 ```
 ## 142. 环形链表 II
+数学问题，使用快慢指针
 ```python
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
